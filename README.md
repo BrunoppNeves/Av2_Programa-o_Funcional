@@ -19,3 +19,29 @@
 
 5) **Requisito Não-Funcional:**
    Escolha qualquer um dos programas anteriores em Python que você desenvolveu e faça com que ele satisfaça o seguinte requisito não-funcional: O Sistema deverá estar disponível para os usuários (dica: adapte-o para que seja uma aplicação de servidor).
+
+## Regras para a Resolução dos Exercícios
+
+1. **Nome do Projeto no Eclipse:**
+   - Você deverá criar um projeto no Eclipse chamado `AV2_<Seu Primeiro Nome e Último Nome>`. Por exemplo, se fosse eu a resolver estes exercícios, o nome do meu projeto seria `AV2_SamuelBarrocas`.
+
+2. **Estrutura do Projeto no Eclipse:**
+   - No projeto do Eclipse, exceto pela questão 1, você deverá criar os seguintes módulos, onde "i" está entre 1 e 5:
+     - `qi_<Seu primeiro e último nome>.py`
+
+   - Por exemplo, para Samuel Barrocas, os pacotes seriam:
+     - `q1_SamuelBarrocas.py`
+     - `q2_SamuelBarrocas.py`
+     - `q3_SamuelBarrocas.py`
+     - `q4_SamuelBarrocas.py`
+     - `q5_SamuelBarrocas.py`
+
+3. **Entrega dos Códigos:**
+   - Você deverá disponibilizar a pasta do seu projeto do Eclipse contendo os códigos na sua página do GitHub. Por favor, envie o link do repositório para o professor via torpedo.
+
+4. **Prazo de Resolução:**
+   - O prazo de resolução das questões é até o dia 18/10/2023, até às 23:59hs.
+
+5. **Regras de Código:**
+   - Não é permitido o uso da palavra reservada “def” no código (a presença dela acarretará em penalização de 50% na nota da questão).
+   - As palavras reservadas “for” e “if” só podem ser utilizadas no escopo de uma List Comprehension ou expressão lambda (a detecção de alguma delas fora dessas regras acarretará em penalização de 50% na nota da questão).
