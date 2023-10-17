@@ -1,9 +1,11 @@
-# Av2_Programa-o_Funcional
+# Av2_Programacao_Funcional
 
 ## Exercícios
 
 1) **Implementação do Diagrama de Atividades em Python:**
+
    ![Descrição da Imagem](https://cdn.discordapp.com/attachments/598261672678916243/1163952040708419645/image.png?ex=654171cf&is=652efccf&hm=7e5b20253784fddb5a588c6c5ff1c84b798423409fa8a0657f441c9459d0d10c&)
+
    Desenvolva um programa em Python que implemente o diagrama de atividades fornecido.
 
 2) **Cadastro e Login de Usuário:**
