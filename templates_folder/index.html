@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <form method="POST" action="/index/">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+    </form>
+    <script>
+        function cadastrar() {
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = '/register/';
+            
+            const usernameInput = document.createElement('input');
+            usernameInput.type = 'text';
+            usernameInput.name = 'username';
+            usernameInput.value = document.getElementById('username').value;
+            form.appendChild(usernameInput);
+            
+            const passwordInput = document.createElement('input');
+            passwordInput.type = 'password';
+            passwordInput.name = 'password';
+            passwordInput.value = document.getElementById('password').value;
+            form.appendChild(passwordInput);
+            
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+</body>
+</html>
